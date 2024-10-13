@@ -1,0 +1,8 @@
+Django==4
+django-environ
+psycopg2-binary
+weasyprint
+django_ace
+black
+isort
+pre-commit
