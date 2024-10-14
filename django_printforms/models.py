@@ -3,8 +3,8 @@ from __future__ import annotations
 from django.db import models
 from django.template import Context, Template, TemplateSyntaxError
 
-from apps.django_printforms.common.custom_types import GenericContext
-from apps.django_printforms.common.models import DefaultModel
+from django_printforms.common.custom_types import GenericContext
+from django_printforms.common.models import DefaultModel
 
 
 def help_message_default() -> dict:

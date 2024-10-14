@@ -11,12 +11,11 @@ from django.template.base import UNKNOWN_SOURCE, Template
 from django.template.loader import get_template
 from django.template.response import TemplateResponse
 
-from apps.django_printforms.admin.forms import (ContentTemplateAdminForm,
-                                                ContentTemplateCreateAdminForm)
-from apps.django_printforms.common.custom_types import GenericContext
-from apps.django_printforms.logic.interactors import \
-    content_template__render_pdf
-from apps.django_printforms.models import ContentTemplate
+from django_printforms.admin.forms import (ContentTemplateAdminForm,
+                                           ContentTemplateCreateAdminForm)
+from django_printforms.common.custom_types import GenericContext
+from django_printforms.logic.interactors import content_template__render_pdf
+from django_printforms.models import ContentTemplate
 
 
 @admin.register(ContentTemplate)

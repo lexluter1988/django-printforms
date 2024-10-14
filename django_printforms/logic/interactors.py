@@ -6,10 +6,9 @@ import typing
 from django.conf import settings
 from weasyprint import HTML
 
-from apps.django_printforms.exceptions import ContentTemplateNotFound
-from apps.django_printforms.logic.selectors import \
-    content_template__find_by_uuid
-from apps.django_printforms.models import ContentTemplate
+from django_printforms.exceptions import ContentTemplateNotFound
+from django_printforms.logic.selectors import content_template__find_by_uuid
+from django_printforms.models import ContentTemplate
 
 if typing.TYPE_CHECKING:
     import uuid

@@ -1,1 +1,0 @@
-from apps.django_printforms.admin.model_admin import ContentTemplateAdmin

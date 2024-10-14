@@ -8,7 +8,7 @@ from django.forms import ModelForm
 from django.template import Context, Template, TemplateSyntaxError
 from django_ace import AceWidget
 
-from apps.django_printforms.models import ContentTemplate
+from django_printforms.models import ContentTemplate
 
 
 class ContentTemplateCreateAdminForm(ModelForm):

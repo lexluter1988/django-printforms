@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import typing
 
-from apps.django_printforms.models import ContentTemplate
+from django_printforms.models import ContentTemplate
 
 if typing.TYPE_CHECKING:  # pragma: no cover
     import uuid
